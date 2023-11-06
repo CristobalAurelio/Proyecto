@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box
+}
+
+.form {
+    height: 18.75em;
+    width: 25em;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+    font-family: 'Courier New', Courier, monospace;
+    color: transparent;
+}
+
+.form>div {
+    height: 6.25em;
+    width: 100%;
+}
+
+.username {
+    background-color: #4daf7c;
+}
+
+.username::after {
+    content: "";
+    width: 0px;
+    height: 0px;
+
+    border-style: solid;
+    border-width: 0.5em 0.469em 0 0.469em;
+    border-color: #4daf7c transparent transparent transparent;
+
+    margin-left: -0.496em;
+}
+
+.password {
+    background-color: #404241;
+}
+
+.password::after {
+    content: "";
+    width: 0px;
+    height: 0px;
+
+    border-style: solid;
+    border-width: 0.5em 0.469em 0 0.469em;
+    border-color: #404241 transparent transparent transparent;
+
+    margin-left: -0.496em;
+}
+
+.login {
+    background-color: #e9c85d;
+    display: flex;
+
+}
+
+.login input {
+
+    vertical-align: middle;
+    text-align: center;
+    font-size: 3em;
+    cursor: pointer;
+    color: white;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+}
+
+
+
+
+.input_ {
+    height: 1.25em;
+    width: 8.125em;
+    font-size: 2em;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    background: transparent;
+    border: 0.033em #fff solid;
+    margin-left: 2.1875em;
+    margin-top: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+::-moz-placeholder {
+    color: #fff;
+}
+
+:-ms-input-placeholder {
+    color: #fff;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
